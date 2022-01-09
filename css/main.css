@@ -973,3 +973,37 @@
     background: #F67E7E;
     border-radius: 50%;
 }
+
+
+
+
+@media only screen and (max-width: 1400px){
+.about-meet__list {
+    display: flex;
+    justify-content: center;
+}
+
+.about-meet__list {
+    margin: -48px -11px;
+    padding-left: 0;
+}
+
+.about-meet__item {
+    margin: 48px 11px;
+}
+}
+
+@media only screen and (max-width: 600px){
+    .about-meet__heading {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .about-meet__list {
+        margin: -24px 10px;
+    }
+
+    .about-meet__item {
+        margin: 24px 10px;
+    }
+    }
