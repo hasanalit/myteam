@@ -897,3 +897,79 @@
         padding: 0 24px;
     }
     }
+
+
+
+
+
+
+/* ABOUT-MEET */
+.about-meet {
+    background: #004047;
+}
+
+.about-meet__container {
+    padding: 140px 0px;
+}
+
+.about-meet__heading {
+    padding-bottom: 64px;
+    font-family: Livvic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about-meet__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -48px -30px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.about-meet__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 48px 30px;
+    text-align: center;
+    background: #012F34;
+    width: 350px;
+    height: 253px;
+}
+
+.about-meet__img {
+    margin-top: 32px;
+}
+
+.about-meet__name {
+    margin: 16px 24px 0px;
+    font-family: Livvic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+
+.about-meet__desc {
+    margin-bottom: 28px;
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about-meet__line {
+    display: flex;
+
+    padding: 20px;
+    width: 56px;
+    height: 56px;
+    background: #F67E7E;
+    border-radius: 50%;
+}
