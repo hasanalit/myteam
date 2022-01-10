@@ -539,6 +539,7 @@ body {
 
             .service__item + .service__item {
                margin-top: 48px;
+               margin-left: 0;
             }
 
 
