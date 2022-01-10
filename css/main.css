@@ -48,6 +48,10 @@
     font-display: swap;
 }
 
+body {
+    background-color: #014E56;
+}
+
 /* HEADER */
 
 .header {
@@ -923,6 +927,7 @@
 }
 
 .about-meet__list {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     margin: -48px -30px;
@@ -930,7 +935,11 @@
     list-style: none;
 }
 
-.about-meet__item {
+/* .about-meet__item {
+
+} */
+
+.list-item-first {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -940,6 +949,16 @@
     width: 350px;
     height: 253px;
 }
+
+.list-item-first:hover .list-item-second {
+    opacity: 1;
+    /* height: 100%; */
+    max-height: 253px;
+}
+
+
+
+
 
 .about-meet__img {
     margin-top: 32px;
@@ -966,7 +985,7 @@
 
 .about-meet__line {
     display: flex;
-
+    margin-bottom: -28px;
     padding: 20px;
     width: 56px;
     height: 56px;
@@ -975,6 +994,60 @@
 }
 
 
+/* .about-meet__combined {
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.5s ease;
+} */
+
+
+.list-item-second {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #002529;
+    opacity: 0;
+    transition: all 0.5s;
+    text-align: center;
+    width: 350px;
+    height: 253px;
+}
+
+
+.about-meet__name-second {
+    padding-top: 35px;
+    font-family: Livvic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+
+.about-meet__desc-second {
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 254px;
+}
+
+.about-meet-icon {
+    margin-left: 10px;
+}
+
+.about-meet__line-second {
+    display: flex;
+    margin-top: 31px;
+    padding: 20px;
+
+    border-radius: 50%;
+    background: #79C8C7;
+}
 
 
 @media only screen and (max-width: 1400px){
