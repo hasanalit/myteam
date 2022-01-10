@@ -400,6 +400,10 @@ body {
                 line-height: 32px;
             }
 
+            .work__right {
+                margin-left: 0px;
+            }
+
             .work__img-left {
                 right: 0%;
                 top: 0%;
