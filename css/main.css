@@ -934,9 +934,11 @@ body {
     margin-bottom: 0;
     list-style: none;
 }
-
-/* .about-meet__item {
-
+/*
+.about-meet__item {
+    margin: 48px 30px;
+    width: 100%;
+    max-width: 350px;
 } */
 
 .list-item-first {
@@ -1042,7 +1044,9 @@ body {
     max-width: 254px;
 }
 
-.about-meet-icon {
+
+
+.about-meet-list-img {
     margin-left: 10px;
 }
 
@@ -1085,4 +1089,78 @@ body {
     .about-meet__item {
         margin: 24px 10px;
     }
+    }
+
+
+
+
+
+
+
+
+    /* ABOUT-CLIENT */
+    .about-client {
+        background: #012F34;
+    }
+
+    .about-client__heading {
+        margin-bottom: 0;
+        padding: 140px 0px 64px;
+        font-family: Livvic;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .about-client__section {
+        display: flex;
+        align-items: center;
+        padding-bottom: 140px;
+    }
+
+    .about-client__desc + .about-client__desc {
+        margin-left: 80px;
+    }
+
+
+
+    @media only screen and (max-width: 1200px){
+        .about-client__heading {
+            padding: 100px 0px 44px;
+            font-size: 32px;
+            line-height: 32px;
+        }
+
+        .about-client__section {
+            padding-bottom: 100px;
+        }
+
+        .about-client__desc + .about-client__desc {
+            margin-left: 40px;
+        }
+    }
+
+
+
+    @media only screen and (max-width: 1000px){
+        .about-client__heading {
+            padding: 88px 0px 64px;
+        }
+
+        .about-client__section {
+            flex-direction: column;
+            padding-bottom: 88px;
+        }
+
+        .about-client__desc + .about-client__desc {
+            margin-top: 60px;
+            margin-left: 0;
+        }
+
+        .about-client__desc {
+            width: 100%;
+            max-width: 150px;
+        }
     }
