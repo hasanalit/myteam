@@ -1180,3 +1180,54 @@ main {
             max-width: 150px;
         }
     }
+
+
+
+
+    /* CONTACT */
+    .contact__container {
+        display: flex;
+        padding: 47px 0px 120px;
+    }
+
+    .contact__left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact__heading {
+        margin-bottom: 16px;
+        font-family: Livvic;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 100px;
+        color: #FFFFFF;
+    }
+
+    .contact__text {
+        margin-bottom: 32px;
+        font-family: Livvic;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 48px;
+        color: #F67E7E;
+    }
+
+    .contact__section {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact__section + .contact__section {
+        margin-top: 8px;
+    }
+
+    .contact__desc {
+        margin-bottom: 0;
+        margin-left: 23px;
+        font-family: Livvic;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
