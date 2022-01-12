@@ -1231,3 +1231,70 @@ main {
         line-height: 28px;
         color: #FFFFFF;
     }
+
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+    }
+
+    .form__section + .form__section {
+        margin-top: 24px;
+    }
+
+    .form__input {
+        background-color: transparent;
+        width: 540px;
+        height: 42px;
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+        opacity: 0.6;
+    }
+
+    .form__input::placeholder {
+        padding-left: 14px;
+        padding-bottom: 16px;
+        font-family: Livvic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    .form__massage {
+        background-color: transparent;
+        width: 540px;
+        height: 84px;
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+        opacity: 0.6;
+    }
+
+    .form__massage::placeholder {
+        padding-left: 14px;
+        padding-bottom: 58px;
+        font-family: Livvic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    .form__btn {
+        margin-top: 24px;
+        font-family: Livvic;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #004047;
+        width: 123px;
+        height: 48px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .form__btn:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
