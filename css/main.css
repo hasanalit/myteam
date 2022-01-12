@@ -1247,9 +1247,9 @@ main {
         background-color: transparent;
         width: 540px;
         height: 42px;
+        color: #FFFFFF;
         border: none;
         border-bottom: 1px solid #FFFFFF;
-        opacity: 0.6;
     }
 
     .form__input::placeholder {
@@ -1260,6 +1260,7 @@ main {
         font-size: 15px;
         line-height: 25px;
         color: #FFFFFF;
+        opacity: 0.6;
     }
 
     .form__massage {
@@ -1268,7 +1269,6 @@ main {
         height: 84px;
         border: none;
         border-bottom: 1px solid #FFFFFF;
-        opacity: 0.6;
     }
 
     .form__massage::placeholder {
@@ -1279,6 +1279,7 @@ main {
         font-size: 15px;
         line-height: 25px;
         color: #FFFFFF;
+        opacity: 0.6;
     }
 
     .form__btn {
